@@ -4,16 +4,16 @@ body {
   background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
-  color: #000;
+  color: #000000;
 }
 
 .container {
-  background-color: rgba(255, 255, 255, 0.427);
+  background-color: rgba(255, 255, 255, 0.444);
   margin: 20px auto;
   padding: 20px;
   max-width: 900px;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.788);
+  box-shadow: 0 0 15px rgb(0, 0, 0);
 }
 
 h1 {
@@ -28,8 +28,8 @@ button {
   cursor: pointer;
 }
 
-.unit, .subject {
-  background-color: rgba(0,0,0,0.05);
+.subject, .unit {
+  background-color: rgba(0, 0, 0, 0.367);
   margin: 10px 0;
   padding: 10px;
   border-radius: 8px;
